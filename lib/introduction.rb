@@ -7,6 +7,11 @@ introduction("Mert")
 def introduction_with_language(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
+def introduction_with_language_optional(name, language = "Ruby")
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+end 
+introduction_with_language_optional("Mert")
+  
 introduction_with_language("Mert", "javascript")
 # the answers. You should ONLY check those answers if you get totally stuck. The important
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
